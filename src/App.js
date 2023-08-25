@@ -24,13 +24,13 @@ function App() {
   console.log(search);
   return (
     <div className="App">
-      <p>---Hoşgeldiniz--- </p>
+      <p className="head">Hava Durumu </p>
       <div>
         <input
           onChange={(e) => setSearch(e.target.value)}
           type="text"
           placeholder="Placeholder"
-          className=" w-[500px] px-3 py-3 placeholder-slate-300 text-white relative bg-black rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring"
+          className=" w-[500px] h-[100px] input-box px-3 py-3 placeholder-slate-300 text-white relative bg-black rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring"
         />
         <City city={city} />
       </div>

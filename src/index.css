@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* styles.css */
+.background-image-container {
+  background-image: url("../src/img/indir\ \(2\).jpg");
+  background-size: 100vh 100vw;
+  background-position: center center;
+  z-index: -100;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -23rem;
+}
+.content {
+  font-size: 6rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.space {
+  padding-top: 26rem;
+}
+.input-box {
+  height: 100px;
+  color: white;
+  padding: 50px;
+  font-size: 2.5rem;
+  background-color: #0e9f0b;
+  border-radius: 15px;
+}
+.head {
+  font-size: 9rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: green;
+  padding: 1.5rem;
+  z-index: 5;
+  font-weight: bolder;
+}
