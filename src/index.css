@@ -3,13 +3,36 @@
 @tailwind utilities;
 /* styles.css */
 .background-image-container {
-  background-image: url("../src/img/indir\ \(2\).jpg");
   background-size: 100vh 100vw;
   background-position: center center;
   z-index: -100;
   width: 100vw;
   height: 100vh;
   margin-top: -23rem;
+}
+.background-image-container.Clouds {
+  background-image: url("../src/img/cloud.jpg");
+}
+.background-image-container.Foggy {
+  background-image: url("../src/img/foggy.jpg");
+}
+.background-image-container.Rainbow {
+  background-image: url("../src/img/rainbow.jpg");
+}
+.background-image-container.Rain {
+  background-image: url("../src/img/rainy.jpg");
+}
+.background-image-container.Snowy {
+  background-image: url("../src/img/snowy.jpg");
+}
+.background-image-container.Sunny {
+  background-image: url("../src/img/sunny.jpg");
+}
+.background-image-container.Storm {
+  background-image: url("../src/img/storm.jpg");
+}
+.background-image-container.Clear {
+  background-image: url("../src/img/clear.jpg");
 }
 .content {
   font-size: 6rem;
